@@ -15,6 +15,8 @@ function install() {
     ./SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
 }
 function remove() {
+    echo "Killing supertux process..."
+    killall supertux
     echo "Removing supertux..."
     rm -rf SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
     rm SuperTux-v0.6.3-Source.tar.gz
