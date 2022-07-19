@@ -15,8 +15,8 @@ function install() {
     ./SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
 }
 function remove() {
-    echo "Removing Lua 5.4.4..."
-    rm -rf lua-5.4.4
-    rm lua-5.4.4.tar.gz
-    echo "Lua 5.4.4 removed successfully!"
+    echo "Removing supertux..."
+    rm -rf SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
+    rm SuperTux-v0.6.3-Source.tar.gz
+    echo "Supertux removed successfully!"
 }
